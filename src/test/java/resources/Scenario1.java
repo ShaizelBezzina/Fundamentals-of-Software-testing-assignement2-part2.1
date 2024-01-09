@@ -39,7 +39,7 @@ public class Scenario1 {
 
         // Entering password
         WebElement enteringPassword = driver.findElement(By.name("password"));
-        enteringPassword.sendKeys("bezzina2003");
+        enteringPassword.sendKeys("Password");
 
         // Clicking on Sign in
         WebElement clickingOnSignIn = driver.findElement(By.id("signInSubmit"));
